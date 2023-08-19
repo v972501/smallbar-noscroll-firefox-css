@@ -1,0 +1,56 @@
+/* declare size variables: */
+:root 
+{ 
+--tab-max-height: 16px !important; 
+--tab-icon-size:  14px !important; 
+}
+
+/* apply heights: */
+#tabbrowser-arrowscrollbox,     /* shows up on tab overflow */
+#nav-bar,                       /* panel below tab panel */
+#PersonalToolbar,               /* bookmarks toolbar */
+.toolbar-items,
+.titlebar-buttonbox-container,
+.tab-content,
+.tab-background,
+.tab-label-container 
+{ height: var(--tab-max-height); }
+
+/* tab site icon size */
+.tab-icon-image
+{
+  height: var(--tab-icon-size) !important;
+  width: var(--tab-icon-size) !important;
+}
+
+/* disable tab margins: */
+.tab-background 
+{ margin: 0 !important; }
+
+/* square tabs: */
+.tab-background {
+  border-radius: 0px !important;
+  margin-block: 1px 1 !important; }
+
+/* hide all tabs list and it's spacer: */
+.titlebar-spacer,
+#alltabs-button 
+{ display: none !important; }
+
+/* hide tab panel leftmost separator: */
+#tabbrowser-tabs {
+  border-inline-start: 0px !important;
+  margin-inline-start: 0px !important;
+  padding-inline-start: 0px !important; }
+
+/* no tab scroll mode */
+.tabbrowser-tab:not([pinned])
+{
+  max-width: 150px !important;
+  min-width: 10px !important;
+}
+.tabbrowser-tab:not([fadein])
+{
+ max-width: 1px !important;
+ min-width: 1px !important;
+}
