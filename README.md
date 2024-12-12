@@ -1,4 +1,4 @@
-# Small bars and no scrolling tabs userChrome.css for FireFox 116.0.3
+# Small bars and no scrolling tabs userChrome.css for FireFox 116.0.3, 133.0.3
 ## With CSD:
 
 <center><img src="./screenshots/csd.png"/></center>
