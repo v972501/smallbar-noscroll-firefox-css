@@ -41,7 +41,8 @@
 #tabbrowser-tabs {
   border-inline-start: 0px !important;
   margin-inline-start: 0px !important;
-  padding-inline-start: 0px !important; }
+  padding-inline-start: 0px !important; 
+  margin-bottom: -10px !important; }
 
 /* no tab scroll mode */
 .tabbrowser-tab:not([pinned])
